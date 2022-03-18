@@ -15,7 +15,7 @@
 
 h1 { 
 color: var(--textC); 
-padding:30px; 
+padding-top:30px; 
 font-weight: normal; 
 font-size: var(--titleSize); 
 text-transform: uppercase; 
@@ -54,4 +54,15 @@ color: var(--linksC);
 text-decoration:none;
 }
 
+#container .header {
+width: 1050px;
+margin: auto auto; 
+}
+
+#container .links {
+width: 1050px;
+margin: auto auto; 
+text-align: center;
+padding-bottom: 30px;
+}
 
