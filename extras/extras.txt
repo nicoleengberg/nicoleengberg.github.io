@@ -555,3 +555,101 @@ data-config="{'skin':'http://static.tumblr.com/thjohj4/vOkmwkoo7/222-black.css',
 <!-- Wikplayer code end -->
 
 
+
+
+
+
+:root{
+
+--backgroundC: #eee7d6;
+--textC: #709c58;
+--linksC: #6c512c;
+--linksHoverC: #5e4626;
+
+--font: Georgia;
+--fontBody: Verdana;
+--titleSize: 25px;
+--postTitleSize: 18px;
+--bodySize: 11px;
+}
+
+h1 { 
+color: var(--textC); 
+padding-top:30px; 
+font-weight: normal; 
+font-size: var(--titleSize); 
+text-transform: uppercase; 
+font-family: var(--font); 
+line-height: -4px;
+text-align: center;
+}
+
+h1 a {
+color:var(--textC);
+}
+
+body {
+margin: 0; 
+display: grid;
+height: 100%;
+grid-template-areas:
+    "header_section"
+    "content_section"
+    "footer_section";
+grid-template-rows: 100px 100% 50px;
+background-color: var(--backgroundC); 
+color: var(--textC);
+font-size: var(--bodySize);
+font-family:var(--fontBody); 
+line-height: 14px; 
+padding: 50px 0 200px 0; 
+}
+
+a {
+color: var(--linksC); 
+text-decoration:none;
+}
+
+a:hover { 
+color: var(--linksHoverC); 
+text-decoration: underline;
+-webkit-transition-duration: 1s; 
+}
+
+a.title {
+color: var(--linksC); 
+text-decoration:none;
+}
+
+.header {
+grid-area: header_section;
+width: 1050px;
+margin: auto auto; 
+}
+
+.links {
+width: 1050px;
+margin: auto auto; 
+text-align: center;
+padding-bottom: 30px;
+}
+
+.content { 
+grid-area: content_section;
+background-color: #DFD; 
+}
+
+.footer {
+grid-area: footer_section;
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+background-color: #a6c496;
+color: white;
+text-align: center;
+height: 60px;
+padding: 0 10px;
+list-style: none;
+}
