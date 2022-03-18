@@ -45,8 +45,8 @@ text-decoration:none;
 
 a:hover { 
 color: var(--linksHoverC); 
-{block:IfUnderlineHover}text-decoration: underline;{/block:IfUnderlineHover}
--webkit-transition-duration: 0.5s; 
+text-decoration: underline;
+-webkit-transition-duration: 1s; 
 }
 
 a.title {
