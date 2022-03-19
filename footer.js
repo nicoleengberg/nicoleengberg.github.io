@@ -4,7 +4,7 @@ document.write("  <div class=\"1\">");
 document.write(" <p> Hello <\/p>  ");
 document.write("  <\/div>");
 document.write("  <div class=\"2\">");
-document.write(" <p> this <\/p>  ");
+document.write(" <p> World <\/p>  ");
 document.write("  <\/div>");
 document.write("  <div class=\"3\">");
 document.write("<h3>Get in Touch<\/h3>");
